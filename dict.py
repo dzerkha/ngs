@@ -9,7 +9,7 @@ media_std = 0
 
 
 for studente in scores:                          
-    print(f"\n Voti di {studente} \n")
+    print(f"\nVoti di {studente} \n")
     somma_std= 0 
     media_std = 0 
     for subject in scores[studente]:                      #scorro le materie (subject) per studente (scores[studente]) e printo il voto (scores[studente][subject])
