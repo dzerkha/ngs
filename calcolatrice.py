@@ -15,7 +15,7 @@ def sottrai(a, b):
 def potenza(a, b):
     return int(a) ** int(b)
 
-while True:  #serve principalmente per effettuare più operazioni se richiesto dall'utente (riga 46-49)                                                                             
+while True:  #serve principalmente per effettuare più operazioni se richiesto dall'utente (riga 48-51)                                                                             
     try:        #richiede la scelta se viene triggherato un ValueError
         scelta = int(input("""   
 _________       .__               .__          __         .__              
